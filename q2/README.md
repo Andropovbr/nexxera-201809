@@ -11,4 +11,8 @@ SET PATH=C:\Users\andro\.minishift\cache\oc\v3.10.0\windows;%PATH%
 REM Run this command to configure your shell:
 REM     @FOR /f "tokens=*" %i IN ('minishift oc-env') DO @call %i
 
-- Run in the command prompt: "oc new-project test-nginx"
+- Create a new project and app, running in the command prompt: "oc new-project test-nginx"
+- Make sure Docker is up
+- Pull the repository from https://github.com/Andropovbr/nexxera-201809.git
+- Go to q2 directory and build the docker image: "docker build -t nginx_test ."
+- Run the container: ""
